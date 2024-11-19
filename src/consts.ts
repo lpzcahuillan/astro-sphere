@@ -2,9 +2,9 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Lpzc",
+  TITLE: "Astro Sphere",
   DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Hugo Lopez.",
+  AUTHOR: "Mark Horn",
 }
 
 // Work Page
@@ -63,18 +63,19 @@ export const SOCIALS: Socials = [
     NAME: "Github",
     ICON: "github",
     TEXT: "markhorn-dev",
-    HREF: "https://github.com/lpzcahuillan"
+    HREF: "https://github.com/markhorn-dev/astro-sphere"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/lpzcahuillan"
+    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+  },
   { 
     NAME: "Twitter",
     ICON: "twitter-x",
     TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/lpzcahuillan",
+    HREF: "https://twitter.com/markhorn_dev",
   },
 ]
 
